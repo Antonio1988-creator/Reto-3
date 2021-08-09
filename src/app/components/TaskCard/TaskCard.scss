@@ -1,0 +1,41 @@
+.task-card-container{
+	padding: 5px 10px 0 10px;
+	background: rgba(255, 255, 255, .85);
+	border-radius: 3px;
+	border-bottom: 1px solid #0da3ad;
+	margin-bottom: 5px;
+	color: #666;
+	font-size: 14px;
+	position: relative;
+
+	.floating-icon{
+		position: absolute;
+		right: 0;
+		top: 7px;
+		width: 24px;
+		height: 24px;
+		display: none;
+		font-size: 12px;
+	}
+
+	.has-desc{
+		display: block;
+		margin-top: -5px;
+		margin-bottom: 10px;
+
+		i{
+			position: relative !important;
+			font-size: 16px;
+		}
+	}
+
+	&:hover{
+		cursor: pointer;
+		background-color: rgba(20, 20, 20, .45);
+		color: #DFDFDF;
+
+		.floating-icon{
+			display: block;
+		}
+	}
+}

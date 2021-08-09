@@ -1,0 +1,30 @@
+.scheduler-container{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-top: 10px;
+	padding-left: 10px;
+
+	.add-column{
+		background-color: hsla(0, 0%, 100%, .5);
+		border-radius: 3px;
+		height: auto;
+		min-height: 32px;
+		padding: 10px;
+		margin-left: 10px;
+		font-size: 14px;
+		width: 272px;
+		transition: background-color .1s ease-in, color .1s ease-in;
+
+		&:hover{
+			cursor: pointer;
+			background-color: rgba(46, 46, 46, .75);
+			color: #DFDFDF;
+		}
+	}
+
+	.cancel{
+		display: inline-block;
+		margin: 5px 0 0 5px;
+	}
+}
