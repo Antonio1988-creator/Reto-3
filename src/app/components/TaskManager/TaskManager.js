@@ -3,8 +3,6 @@ import { connect } from 'react-redux';
 
 import { taskManagerActions } from './_actions';
 
-import './TaskManager.scss';
-
 class TaskManager extends React.Component{
 	constructor(props){
 		super(props);
