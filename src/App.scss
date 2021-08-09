@@ -1,0 +1,64 @@
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+/* Form component */
+.button-add-task{
+	border: none;
+	background-color: transparent;
+	padding: 5px 12px;
+	width: 100%;
+	text-align: left;
+	color: #5e6c84;
+	font-size: 13px;
+	border-radius: 3px;
+	outline: none;
+}
+
+.button-add-column{
+	background-color: #0079bf;
+	box-shadow: none;
+	border: none;
+	color: #FFF;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	margin-bottom: 0;
+	vertical-align: top;
+	padding: 6px 12px;
+	border-radius: 3px;
+
+	&:hover{
+		cursor: pointer;
+		background: #026aa7;
+	}
+
+	&:active{
+		background-color: #055a8c;
+	}
+}
+
+.textarea-container{
+	padding: 5px 10px;
+	background: rgba(255, 255, 255, .85);
+	border-radius: 3px;
+	border-bottom: 1px solid #9da3ad;
+	margin-bottom: 5px;
+
+	.textarea{
+		overflow: hidden;
+		overflow-wrap: break-word;
+		resize: none;
+		height: 44px;
+		margin-bottom: 4px;
+		max-height: 162px;
+		min-height: 44px;
+		font-size: 14px;
+		padding: 0;
+		background-color: transparent;
+		border: none;
+		box-shadow: none;
+		outline: none;
+		color: #5e6c84;
+		width: 100%;
+	}
+}
